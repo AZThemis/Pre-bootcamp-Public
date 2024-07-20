@@ -1,0 +1,21 @@
+Output 1 :
+-Tesla
+-Mercedes
+
+Output 2 :
+- ReferenceError: name is not defined
+- Elon 
+
+Output 3 :
+12345
+undefined
+
+Output 4 :
+false
+true
+
+Output 5 : 
+value
+[1, 5, 1, 8, 3, 3]
+1
+5
