@@ -1,0 +1,23 @@
+//1
+const divisibleByThree = pokemon.filter(p => p.id % 3 === 0);
+
+//2
+const fireTypePokemon = pokemon.filter(p => p.types.includes("fire"));
+
+//3
+const multipleTypesPokemon = pokemon.filter(p => p.types.length > 1);
+
+//4
+const pokemonNames = pokemon.map(p => p.name);
+
+//5
+const namesGreaterThan99 = pokemon.filter(p => p.id > 99).map(p => p.name);
+
+//6
+const poisonTypePokemon = pokemon.filter(p => p.types.length === 1 && p.types[0] === "poison").map(p => p.name);
+
+//7
+const firstTypesOfFlying = pokemon.filter(p => p.types[1] === "flying").map(p => p.types[0]);
+
+//8
+const normalTypeCount = pokemon.filter(p => p.types.includes("normal")).length;
