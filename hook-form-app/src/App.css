@@ -1,0 +1,17 @@
+/* src/App.css */
+.App {
+  text-align: center;
+  padding: 20px;
+}
+
+form {
+  display: grid;
+  gap: 10px;
+  max-width: 300px;
+  margin: 0 auto;
+}
+
+input {
+  padding: 10px;
+  font-size: 1em;
+}
