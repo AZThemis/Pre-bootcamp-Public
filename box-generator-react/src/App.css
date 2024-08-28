@@ -1,0 +1,17 @@
+
+.App {
+  text-align: center;
+}
+
+form {
+  margin: 20px;
+}
+
+input {
+  margin-right: 10px;
+}
+
+.box-container {
+  display: flex;
+  flex-wrap: wrap;
+}
