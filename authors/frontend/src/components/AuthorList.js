@@ -21,7 +21,7 @@ const AuthorList = () => {
 
     return (
         <div>
-            <h2>Favorite Authors</h2>
+
             <Link to="/authors/new">Add an author</Link>
             <table>
                 <thead>
